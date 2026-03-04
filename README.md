@@ -23,7 +23,13 @@ Output jar:
 ## Run
 
 ```bash
-java -jar target/excel-import-tool-1.0.0-jar-with-dependencies.jar your-file.xlsx
+java -jar target/excel-import-tool-1.0.0-jar-with-dependencies.jar input.xlsx
+```
+
+Import and export in one command:
+
+```bash
+java -jar target/excel-import-tool-1.0.0-jar-with-dependencies.jar input.xlsx output.xlsx
 ```
 
 ## Validation rules
